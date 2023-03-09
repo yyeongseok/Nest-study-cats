@@ -33,5 +33,6 @@ export class CatsController {
   @Delete(':id')
   deleteCat() {
     return 'delete service';
+    console.log('delete');
   }
 }
